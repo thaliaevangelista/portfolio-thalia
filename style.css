@@ -1,2 +1,17 @@
-
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5; /* cor de fundo clara */
+  color: #333; /* cor do texto */
+  text-align: center;
+  padding: 50px;
 }
+
+h1 {
+  color: #6a0dad; /* roxo elegante */
+}
+
+p {
+  font-size: 18px;
+}
+
