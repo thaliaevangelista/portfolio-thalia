@@ -50,11 +50,6 @@
   Desenvolvido com **HTML, CSS e JavaScript**.  
   **Status:** projeto iniciado por mim e continuado em colaboração, ainda não finalizado no meu repositório.
 
----
-
-## 📊 Estatísticas
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=thaliaevangelista&show_icons=true&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=thaliaevangelista&layout=compact&theme=radical)
 
 ---
 
