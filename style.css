@@ -1,17 +1,81 @@
-/* style.css */
+/* Estilo geral */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f5f5f5; /* cor de fundo clara */
-  color: #333; /* cor do texto */
+  margin: 0;
+  padding: 0;
+  background-color: #f3f0f9;
+  color: #333;
+}
+
+/* Banner */
+header .banner {
+  background: linear-gradient(135deg, #6a0dad, #8a2be2);
+  color: white;
   text-align: center;
-  padding: 50px;
+  padding: 50px 20px;
 }
 
-h1 {
-  color: #6a0dad; /* roxo elegante */
+header .banner h1 {
+  margin: 0;
+  font-size: 36px;
 }
 
-p {
+header .banner p {
   font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Navegação */
+nav {
+  text-align: center;
+  background-color: #eee;
+  padding: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #6a0dad;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Seções */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #6a0dad;
+  margin-bottom: 15px;
+}
+
+/* Cards de projetos */
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px auto;
+  max-width: 400px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+/* Rodapé */
+footer {
+  background-color: #6a0dad;
+  color: white;
+  text-align: center;
+  padding: 15px;
 }
 
