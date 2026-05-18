@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="banner.png" alt="Banner do Portfólio" width="950%" height="320px">
+</div>
+
 # 👩‍💻 Thalia Soares Evangelista
 
 **Analista de Sistema Operacional | Barueri - SP, Brasil**
@@ -10,7 +14,7 @@
 
 ## 🚀 Experiência
 - **TIVIT**  
-  - Analista de Sistema Operacional (2021 - atual)  
+  - Analista de Suporte Operacional (2021 - atual)  
   - ECM Preparador de Documento (2016 - 2021)  
 
 ---
