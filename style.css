@@ -1,41 +1,41 @@
-/* Estilo geral */
-body {
-  font-family: Arial, sans-serif;
+/* Reset */
+* {
   margin: 0;
   padding: 0;
-  background-color: #f3f0f9;
-  color: #333;
+  box-sizing: border-box;
 }
 
-/* Banner */
-header .banner {
+/* Corpo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
   background: linear-gradient(135deg, #6a0dad, #8a2be2);
   color: white;
   text-align: center;
-  padding: 50px 20px;
+  padding: 40px 20px;
 }
 
-header .banner h1 {
-  margin: 0;
-  font-size: 36px;
+header h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
 }
 
-header .banner p {
+header p {
   font-size: 18px;
-  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 /* Navegação */
-nav {
-  text-align: center;
-  background-color: #eee;
-  padding: 10px;
-}
-
 nav a {
   margin: 0 15px;
   text-decoration: none;
-  color: #6a0dad;
+  color: #fff;
   font-weight: bold;
 }
 
@@ -45,11 +45,7 @@ nav a:hover {
 
 /* Seções */
 main {
-  padding: 20px;
-}
-
-section {
-  margin-bottom: 40px;
+  padding: 30px;
 }
 
 h2 {
@@ -57,18 +53,20 @@ h2 {
   margin-bottom: 15px;
 }
 
-/* Cards de projetos */
-.card {
-  background-color: white;
-  border: 1px solid #ddd;
-  padding: 15px;
-  margin: 10px auto;
-  max-width: 400px;
-  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+.sobre, .projetos {
+  margin-bottom: 40px;
 }
 
-.card h3 {
-  margin-top: 0;
+/* Projetos */
+.projetos ul {
+  list-style: none;
+}
+
+.projetos li {
+  background: #eee;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
 
 /* Rodapé */
